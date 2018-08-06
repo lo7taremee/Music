@@ -1,10 +1,9 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = '.'
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Nothing`,"http://twitch.tv/S-F")
+client.user.setGame(`Comeing Soon `,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -34,12 +33,7 @@ client.on("message", message => {
       .setThumbnail(message.author.avatarURL)
       .setDescription(`
 ***
-ملاحظه
-Special orders ان برفكس الاوامر المميزه او
-يختلف عن جميع الاوامر 
-Special orders برفكس الاوامر المميزه او 
-tm !
-اما برفكس باقي الاوامر
+برفكس الاوامر
 tm 
 ***
 `)
@@ -73,54 +67,54 @@ Fire bot
 **
         ***__General orders__***
 **
-،؛tm id / معلومات عن حسابك،»
-،؛tm draw / يكرر كلامك في صوره،»
-،؛tm embed / يكرر كلامك بمبيد،»
-،؛tm roles / يعرض لك الرتب و عددها،»
-،؛tm rooms / يعرض لك الرومات وعددها،»
-،؛tm server / معلومات عن السيرفر،»
-،؛tm animal / يعطيك صور حيوانات،»
-،؛tm image / يعرض صوره السيرفر،»
-،؛tm avatar / يعرض صورتك او صوره شخص،»
-،؛tm time / يعرض لك الوقت،»
-،؛tm date / يعرض لك التاريخ،»
-،؛tm dt / يعرض الوقت في الامارات و مكه المكرمه و مصر و التاريخ،»
+『tm id / معلومات عن حسابك』
+『tm draw / يكرر كلامك في صوره』
+『tm embed / يكرر كلامك بمبيد』
+『tm roles / يعرض لك الرتب و عددها』
+『tm rooms / يعرض لك الرومات وعددها』
+『tm server / معلومات عن السيرفر』
+『tm animal / يعطيك صور حيوانات』
+『tm image / يعرض صوره السيرفر』
+『tm avatar / يعرض صورتك او صوره شخص』
+『tm time / يعرض لك الوقت』
+『tm date / يعرض لك التاريخ』
+『tm dt / يعرض الوقت في الامارات و مكه المكرمه و مصر و التاريخ』
 **
         ***__Bot orders__***
 **
-،؛tm ping / يعرض لك سرعه اتصال البوت،»
-،؛tm uptime / يعرض لك صار للبوت كم شغال،»
-،؛tm support / سيرفر الدعم القني و المساعده،»
-،؛tm invite / اضافه البوت،»
-،؛tm members / حاله الاعضاء،»
-،؛tm bot / معلومات عن البوت،»
+『tm ping / يعرض لك سرعه اتصال البوت』
+『tm uptime / يعرض لك صار للبوت كم شغال』
+『tm support / سيرفر الدعم القني و المساعده』
+『tm invite / اضافه البوت』
+『tm members / حاله الاعضاء』
+『tm bot / معلومات عن البوت』
 **
         ***__Administrative Orders__***
 **
-،؛tm kick / كيك،»
-،؛tm ban / بان،»
-،؛tm mute /ميوت،»
-،؛tm unmute /فك الميوت،»
-،؛tm mutechannel /قفل الشات،»
-،؛tm unmutechannel /فتح الشات،»
-،؛tm add.r / اضافه رتبه،»
-،؛tm delet / مسح روم،»
-،؛tm color 50 /انشاء 50 لون،»
-،؛tm color 100/انشاء 100 لون،»
-،؛tm color 140/انشاء 140 لون،»
-،؛tm ct /انشاء روم كتابي،»4
-،؛tm cv /انشاء روم صوتي،»
-،؛tm bc /برودكاست،»
+『tm kick / كيك』
+『tm ban / بان』
+『tm mute /ميوت』
+『tm unmute /فك الميوت』
+『tm mutechannel /قفل الشات』
+『tm unmutechannel /فتح الشات』
+『tm add.r / اضافه رتبه』
+『tm delet / مسح روم』
+『tm color 50 /انشاء 50 لون』
+『tm color 100/انشاء 100 لون』
+『tm color 140/انشاء 140 لون』
+『tm ct /انشاء روم كتابي』4
+『tm cv /انشاء روم صوتي』
+『tm bc /برودكاست』
 **
         ***__Games orders__***
  **       
-،؛tm لعبه صراحه / صراحه،»
-،؛tm لعبه مريم / مريم،»
-،؛tm لعبه خواطر / خواطر،»
-،؛tm يعطيك شعر عن الحب / حب،»
-،؛tm يخيرك بين شي وشي / لو خيروك،»
-،؛tm يعطيك عقاب و لازم تنفذه / عقاب،»
-،؛tm لعبه اسئله / كت تويت،»
+『tm لعبه صراحه / صراحه』
+『tm لعبه مريم / مريم』
+『tm لعبه خواطر / خواطر』
+『tm يعطيك شعر عن الحب / حب』
+『tm يخيرك بين شي وشي / لو خيروك』
+『tm يعطيك عقاب و لازم تنفذه / عقاب』
+『tm لعبه اسئله / كت تويت』
 **
    
         
@@ -505,18 +499,18 @@ client.on('message', message => {
 
                 var Date15= new Discord.RichEmbed()
                 .setThumbnail("https://i.imgur.com/ib3n4Hq.png") 
-                .setTitle( "،؛التاريخ  والوقت،»")
+                .setTitle( "『التاريخ  والوقت』")
                 .setColor('RANDOM')
                 .setFooter(message.author.username, message.author.avatarURL)
                 .addField('الامارات',
-                "،؛"+ hours + ":" + minutes +":"+ seconds + "،»")
+                "『"+ hours + ":" + minutes +":"+ seconds + "』")
                  .addField('مكه المكرمه',
-                "،؛"+ hours2 + ":" + minutes +":"+ seconds  + "،»") 
+                "『"+ hours2 + ":" + minutes +":"+ seconds  + "』") 
                 .addField('مصر',
-                "،؛"+ hours3 + ":" + minutes +":"+ seconds  + "،»") 
+                "『"+ hours3 + ":" + minutes +":"+ seconds  + "』") 
                 
                 .addField('Date',
-                "،؛"+ Day + "-" + Month + "-" + Year +  "،»")
+                "『"+ Day + "-" + Month + "-" + Year +  "』")
 
                  message.channel.sendEmbed(Date15);
         }
@@ -1328,7 +1322,7 @@ client.on('message', function(message) {
 });
 
 client.on('message', message=>{
-    if (message.content ===  'f!color 140'){
+    if (message.content ===  'tm color 140'){
               if(!message.channel.guild) return;
             if (message.member.hasPermission('MANAGE_ROLES')){
                 setInterval(function(){})
@@ -1341,5 +1335,6 @@ client.on('message', message=>{
             }
     }
 });
+
 
 client.login(process.env.BOT_TOKEN);
