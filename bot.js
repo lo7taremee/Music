@@ -93,7 +93,7 @@ Fire bot
 **
 『tmkick / كيك』
 『tmban / بان』
-『tmmute /ميوت』
+『tmاسكت /ميوت』
 『tmunmute /فك الميوت』
 『tmmutechannel /قفل الشات』
 『tmunmutechannel /فتح الشات』
@@ -925,7 +925,7 @@ let muteRole1 = message.guild.roles.find("name", "Muted");
      if (!message.channel.guild) return;
              message.author.delete
 
-let muteRole1 = message.guild.roles.find("name", "Muted");
+let muteRole1 = message.guild.roles.find("name", "اسكت");
      if (!muteRole1) return;
     var guild = message.channel.guild;
           var currentTime = new Date(),
